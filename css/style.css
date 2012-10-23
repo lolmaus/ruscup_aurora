@@ -680,7 +680,7 @@ form .field-name-field-timetable .field-type-datetime legend {
   margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
-  max-width: 70.625em;
+  max-width: 1130px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.13\.alpha\.0\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
 #header:after, #page:after, #footer:after {
