@@ -549,79 +549,54 @@ form .field-name-field-timetable .field-type-datetime legend {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003139}}
 #block-views-tournaments-title-block-1 {
   margin-bottom: 0;
 }
-@media (min-width: 400px) and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000387}}
+@media (min-width: 401px) and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003145}}
   #block-views-tournaments-title-block-1 .views-row {
     display: inline-block;
-    width: 47.82609%;
-    margin-bottom: 4.34783%;
+    width: 46.66667%;
+    margin: 0 6.66667% 6.66667% 0;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000397}}
-  #block-views-tournaments-title-block-1 .views-row:nth-child(odd) {
-    margin-right: 4.34783%;
-  }
-}
-@media (min-width: 801px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000387}}
-  #block-views-tournaments-title-block-1 .views-row {
-    display: inline-block;
-    width: 30.43478%;
-    margin: 0 4.34783% 4.34783% 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003111}}
-  #block-views-tournaments-title-block-1 .views-row:nth-child(3n) {
+  #block-views-tournaments-title-block-1 .views-row:nth-child(2n+0) {
     margin-right: 0;
   }
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003153}}
-#block-views-tournaments-title-block-2 {
-  margin-bottom: 0;
-}
-@media (min-width: 601px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003157}}
-  #block-views-tournaments-title-block-2 .views-row {
-    font-size: 1.2em;
+  #block-views-tournaments-title-block-1 .views-row:first-child, #block-views-tournaments-title-block-1 .views-row:nth-child(2) {
     display: inline-block;
-    width: 47.82609%;
-    margin: 0 4.34783% 4.34783% 0;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003171}}
-  #block-views-tournaments-title-block-2 .views-row:nth-child(2n) {
-    margin-right: 0;
-  }
-}
-@media (min-width: 801px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003157}}
-  #block-views-tournaments-title-block-2 .views-row {
-    font-size: 1.5em;
+    width: 100%;
+    margin: 0 6.66667% 6.66667% 0;
     position: relative;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003121}}
-  #block-views-tournaments-title-block-2 .views-row img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000397}}
+  #block-views-tournaments-title-block-1 .views-row:first-child:nth-child(1n+0), #block-views-tournaments-title-block-1 .views-row:nth-child(2):nth-child(1n+0) {
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003107}}
+  #block-views-tournaments-title-block-1 .views-row:first-child img, #block-views-tournaments-title-block-1 .views-row:nth-child(2) img {
     -webkit-border-radius: 1em;
     -moz-border-radius: 1em;
     -ms-border-radius: 1em;
     -o-border-radius: 1em;
     border-radius: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003127}}
-  #block-views-tournaments-title-block-2 .views-row .views-field-title,
-  #block-views-tournaments-title-block-2 .views-row .views-field-field-status {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003113}}
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-title,
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-field-status, #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-title,
+  #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-field-status {
     position: absolute;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003137}}
-  #block-views-tournaments-title-block-2 .views-row .views-field-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003123}}
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-title, #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-title {
     bottom: 1.6em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003143}}
-  #block-views-tournaments-title-block-2 .views-row .views-field-field-status {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003129}}
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-field-status, #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-field-status {
     bottom: 0;
     padding-bottom: 0.4em;
     -webkit-border-radius: 0 0 1em 1em;
@@ -631,32 +606,62 @@ form .field-name-field-timetable .field-type-datetime legend {
     border-radius: 0 0 1em 1em;
   }
 }
-@media (min-width: 401px) and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003157}}
-  #block-views-tournaments-title-block-2 .views-row {
+@media (min-width: 601px) and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003145}}
+  #block-views-tournaments-title-block-1 .views-row {
+    display: inline-block;
+    width: 47.82609%;
+    margin: 0 4.34783% 4.34783% 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000397}}
+  #block-views-tournaments-title-block-1 .views-row:nth-child(2n+0) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 801px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003145}}
+  #block-views-tournaments-title-block-1 .views-row {
+    display: inline-block;
+    width: 30.43478%;
+    margin: 0 4.34783% 4.34783% 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000397}}
+  #block-views-tournaments-title-block-1 .views-row:nth-child(3n+5) {
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003173}}
+  #block-views-tournaments-title-block-1 .views-row:first-child, #block-views-tournaments-title-block-1 .views-row:nth-child(2) {
+    display: inline-block;
+    width: 47.82609%;
+    margin: 0 4.34783% 4.34783% 0;
     position: relative;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003121}}
-  #block-views-tournaments-title-block-2 .views-row img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\0000397}}
+  #block-views-tournaments-title-block-1 .views-row:first-child:nth-child(2n+0), #block-views-tournaments-title-block-1 .views-row:nth-child(2):nth-child(2n+0) {
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003107}}
+  #block-views-tournaments-title-block-1 .views-row:first-child img, #block-views-tournaments-title-block-1 .views-row:nth-child(2) img {
     -webkit-border-radius: 1em;
     -moz-border-radius: 1em;
     -ms-border-radius: 1em;
     -o-border-radius: 1em;
     border-radius: 1em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003127}}
-  #block-views-tournaments-title-block-2 .views-row .views-field-title,
-  #block-views-tournaments-title-block-2 .views-row .views-field-field-status {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003113}}
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-title,
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-field-status, #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-title,
+  #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-field-status {
     position: absolute;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003137}}
-  #block-views-tournaments-title-block-2 .views-row .views-field-title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003123}}
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-title, #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-title {
     bottom: 1.6em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003143}}
-  #block-views-tournaments-title-block-2 .views-row .views-field-field-status {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/4-nodes\/_view-tournaments-title\.sass}line{font-family:\00003129}}
+  #block-views-tournaments-title-block-1 .views-row:first-child .views-field-field-status, #block-views-tournaments-title-block-1 .views-row:nth-child(2) .views-field-field-status {
     bottom: 0;
     padding-bottom: 0.4em;
     -webkit-border-radius: 0 0 1em 1em;
