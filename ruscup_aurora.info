@@ -4,9 +4,9 @@ core = 7.x
 base theme = aurora
 
 ; Stylesheets
-stylesheets[all][] = stylesheets/style.css
-stylesheets[print][] = stylesheets/print.css
-stylesheets-conditional[lt IE 9][all][] = stylesheets/ie.css
+stylesheets[all][] = css/style.css
+;stylesheets[print][] = css/print.css
+;stylesheets-conditional[lt IE 9][all][] = css/ie.css
 
 ; Regions
 regions[header-first]   = Header First
