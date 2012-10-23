@@ -1,0 +1,93 @@
+$border-radius: 1em
+$label-padding: 0.2em
+
+.view-tournaments-title
+  +pie-clearfix
+
+  .views-row
+    vertical-align: top
+    position:       relative
+    margin-bottom:  $vertical-margin
+
+
+    //.views-field-title, .views-field-field-status
+    //  position: absolute
+    //  bottom:     2em
+    //  left:       0
+    //  padding:    0.5em
+    //  background: rgba(black,0.5)
+    //
+    //.views-field-title
+    //  & > *
+    //    font-size: 1.5em
+    //
+    //.views-field-field-status
+    //  bottom:     0
+
+    background-color: rgba(black, 0.7)
+    +border-radius($border-radius)
+    img
+      +border-radius($border-radius $border-radius 0 0)
+      width:  100%
+      height: auto
+
+
+    .views-field-title, .views-field-field-status
+      padding: $label-padding
+      text-align: center
+
+    .views-field-title > *
+      @extend h5
+
+#block-views-tournaments-title-block-1
+  margin-bottom: 0 // Margin is set per-row
+  .views-row
+    +at-breakpoint($bp-small-medium $cols-large $bp-large-xlarge)
+      display:        inline-block
+      width: columns($cols-large / 2,$cols-large)
+      margin-bottom: gutter($cols-large)
+      &:nth-child(odd)
+        margin-right: gutter($cols-large)
+
+    +at-breakpoint($layout-xlarge-and-above)
+      display:        inline-block
+      width: columns($cols-large / 3,$cols-large)
+      margin: 0 gutter($cols-large) gutter($cols-large) 0
+      &:nth-child(3n)
+        margin-right: 0
+
+=put-tournament-labels-over-image
+  position: relative
+  img
+    +border-radius($border-radius)
+
+  .views-field-title,
+  .views-field-field-status
+    position: absolute
+    width: 100%
+    background-color: rgba(black, 0.7)
+  .views-field-title
+    bottom: 1em + $label-padding * 3
+
+  .views-field-field-status
+    bottom: 0
+    padding-bottom: $label-padding * 2
+    +border-radius(0 0 $border-radius $border-radius)
+
+#block-views-tournaments-title-block-2
+  margin-bottom: 0 // Margin is set per-row
+  .views-row
+
+    +at-breakpoint($layout-large-and-above)
+      font-size: 1.2em
+      display:        inline-block
+      width: columns($cols-large / 2,$cols-large)
+      margin: 0 gutter($cols-large) gutter($cols-large) 0
+      &:nth-child(2n)
+        margin-right: 0
+    +at-breakpoint($layout-xlarge-and-above)
+      font-size: 1.5em
+      +put-tournament-labels-over-image
+
+    +at-breakpoint($layout-medium)
+      +put-tournament-labels-over-image

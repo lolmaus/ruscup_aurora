@@ -1,0 +1,13 @@
+.node-tournament
+  .field-group-format
+    +at-breakpoint($layout-xlarge-and-above)
+      $cols: $cols-large / 2
+      +span-columns($cols)
+
+      &:nth-child(even)
+        +span-columns($cols omega)
+
+  .field-type-entityreference
+    .field-items
+      .field-label
+        font-size: 1em

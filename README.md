@@ -1,0 +1,1 @@
+# A Drupal 7 theme

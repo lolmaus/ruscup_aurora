@@ -1,0 +1,14 @@
+.vertical-tabs
+  ul.vertical-tabs-list
+    li
+      background: transparent
+      strong
+        border-bottom: 1px dashed
+      a:hover strong
+        text-decoration: none
+        border-bottom: 1px solid
+    li.selected
+      background: lighten($color-background,10)
+      strong
+        color: $color-headers-main
+        border-bottom: none !important

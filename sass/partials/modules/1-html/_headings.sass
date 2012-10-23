@@ -1,0 +1,27 @@
+/////////////
+// Headers are scaled proportionally
+/////////////
+
+$basic-font-size  : 1em
+$max-font-size    : 2em
+$increment        : ($max-font-size - $basic-font-size) / 6
+$size             : 0
+
+@for $i from 1 through 6
+  $size: $size + $increment
+  h#{7-$i}
+    font-size   : $basic-font-size + $size
+
+h1
+  margin-bottom: $vertical-margin / 4
+  font-weight: bold
+  span
+    font-weight: normal
+
+  +at-breakpoint($layout-large-and-above)
+    font-size: 3em
+
+h1, h2, h3, h4, h5, h6
+  font-family : $font-serif
+  color       : $color-headers-main
+  +text-shadow(0 0 6px $color-headers-main)

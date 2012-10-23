@@ -1,0 +1,17 @@
+=horiz-list($padding: 1em)
+  +horizontal-list-container
+  overflow:     visible
+  line-height:  1.2em
+
+  li
+    +no-bullet
+    white-space:  nowrap
+    display:      inline
+    padding:      0
+    margin:       0
+
+    @if $padding
+      padding-right: $padding
+
+      &:last-child, &.last, &.last-item
+        padding-right: 0

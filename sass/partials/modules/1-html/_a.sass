@@ -1,0 +1,14 @@
+a
+  color: $color-link
+
+  &:visited
+    color: $color-link-visited
+
+  &:hover, &:active
+    color: $color-link-active
+    img
+      +opacity(0.7)
+
+  &.active, li &.active
+    color:            $color-main
+    text-decoration:  none

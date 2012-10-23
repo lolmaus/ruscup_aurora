@@ -1,0 +1,32 @@
+.field
+  margin-bottom: $vertical-margin
+
+  .field-label, label
+    @extend h3
+
+
+.field-label-inline
+  .field-label:after
+    content: ": "
+
+fieldset
+  border: 1px solid $color-main
+  padding: 2em
+  margin-bottom: $vertical-margin
+
+
+
+  .form-wrapper
+    margin: 2em 0
+    &:first-of-type
+      margin-top: 0
+    &:last-of-type
+      margin-bottom: 0
+    .form-item
+      margin: 0
+
+.field-type-entityreference
+  .form-item
+    div
+      label
+        +unset-heading

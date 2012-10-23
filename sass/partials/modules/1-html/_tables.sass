@@ -1,0 +1,17 @@
+table
+  form &
+    width: 100%
+
+    tr
+      &.odd, &:nth-child(odd)
+        background-color: transparent
+      &.even, &:nth-child(even)
+        background-color: lighten($color-background,10)
+
+      td
+        padding: 1em
+        legend, label
+          +unset-heading
+
+        .handle
+          +box-sizing(content-box)
