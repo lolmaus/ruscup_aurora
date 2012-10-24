@@ -304,35 +304,36 @@ fieldset .form-wrapper .form-item {
   float: left;
   margin-right: 2em;
 }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000343}}
-form .field-collection-container td:nth-child(2) > * {
+form .field-name-field-timetable td:nth-child(2) > * {
   float: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000351}}
-form .field-collection-container td:nth-child(2) .field-type-datetime fieldset {
+form .field-name-field-timetable td:nth-child(2) .field-type-datetime fieldset {
   border: none;
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000359}}
-form .field-collection-container td:nth-child(2) .field-type-datetime fieldset .date-padding {
+form .field-name-field-timetable td:nth-child(2) .field-type-datetime fieldset .date-padding {
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000363}}
-form .field-collection-container td:nth-child(2) .field-type-datetime fieldset .date-padding > * {
+form .field-name-field-timetable td:nth-child(2) .field-type-datetime fieldset .date-padding > * {
   display: inline-block;
   float: none;
   margin-right: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000373}}
-form .field-collection-container td:nth-child(2) .form-submit {
+form .field-name-field-timetable td:nth-child(2) .form-submit {
   margin: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000383}}
-form .field-collection-container .form-wrapper {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000387}}
+form .field-name-field-timetable td:nth-child(2) .form-wrapper {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000391}}
-form .field-collection-container .field-type-datetime legend {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/2-fields\/_timetable\.sass}line{font-family:\0000395}}
+form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   display: none;
 }
 

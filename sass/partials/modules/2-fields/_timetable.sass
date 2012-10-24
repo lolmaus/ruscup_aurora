@@ -17,25 +17,27 @@
               float: left
               margin-right: 2em
 
-  form &
-    td:nth-child(2)
-      >*
-        float: left
+form .field-name-field-timetable
+  td:nth-child(2)
+    >*
+      float: left
 
-      .field-type-datetime
-        fieldset
-          border: none
+    .field-type-datetime
+      fieldset
+        border: none
+        padding: 0
+
+        .date-padding
           padding: 0
+          &>*
+            display: inline-block
+            float: none
+            margin-right: 1em
 
-          .date-padding
-            padding: 0
-            &>*
-              display: inline-block
-              float: none
-              margin-right: 1em
+    .form-submit
+      margin: 1em
 
-      .form-submit
-        margin: 1em
+
 
 
 
