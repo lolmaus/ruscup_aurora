@@ -1,14 +1,22 @@
-.field-name-field-timetable
-  .field-items
-    .field-item
-      margin-bottom: 0
-      .field-collection-view
-        margin: 0
-        padding:  0
+.field-collection-container
+  border-bottom: 0
+  margin-bottom: 0
 
-        .field-name-field-timetable-date
-          float: left
-          margin-right: 2em
+  .field-name-field-timetable
+    .field-items
+      .field-item
+        margin-bottom: 0
+        .field-collection-view
+          margin: 0
+          padding:  0
+
+          .content
+            &>*
+              margin-bottom: 0.5em
+              border-bottom
+            .field-name-field-timetable-date
+              float: left
+              margin-right: 2em
 
   form &
     td:nth-child(2)
