@@ -472,7 +472,8 @@ form .field-name-field-timetable .field-type-datetime legend {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/3-blocks\/_mission\.sass}line{font-family:\000031}}
 #block-block-6 {
-  margin: 2em 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
   font-size: 1.2em;
   font-family: "PT Serif";
