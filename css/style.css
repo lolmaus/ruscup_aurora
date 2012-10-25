@@ -687,6 +687,28 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   }
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_judjes_per_tournament\.sass}line{font-family:\000033}}
+.view-id-judjes_per_tournament .views-row {
+  *zoom: 1;
+  margin: 0.5em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.13\.alpha\.0\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.view-id-judjes_per_tournament .views-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_judjes_per_tournament\.sass}line{font-family:\0000311}}
+.view-id-judjes_per_tournament .views-row > * {
+  margin-left: 4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_judjes_per_tournament\.sass}line{font-family:\0000317}}
+.view-id-judjes_per_tournament .views-row .views-field-field-image {
+  margin-left: 0;
+  width: 3em;
+  float: left;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/sections\/_layout\.sass}line{font-family:\000037}}
 #header, #page, #footer {
   *zoom: 1;
