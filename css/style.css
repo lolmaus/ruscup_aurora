@@ -280,6 +280,10 @@ fieldset .form-wrapper .form-item {
   text-shadow: none;
   font-size: 1em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000377}}
+.field-type-entityreference .field-items .field-label {
+  font-size: 1em;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\000031}}
 .field-collection-container {
@@ -521,10 +525,6 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
     margin-right: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/nodes\/_tournament\.sass}line{font-family:\0000323}}
-.node-tournament .field-type-entityreference .field-items .field-label {
-  font-size: 1em;
-}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\000037}}
 .view-tournaments-title {
@@ -707,6 +707,18 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   margin-left: 0;
   width: 3em;
   float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/stuff\/_colorbox\.sass}line{font-family:\000033}}
+#colorbox, #colorbox * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/stuff\/_colorbox\.sass}line{font-family:\000039}}
+#colorbox img {
+  min-width: 400px;
+  height: auto;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/sections\/_layout\.sass}line{font-family:\000037}}
