@@ -181,6 +181,10 @@ h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tour
   color: #f4c165;
   text-shadow: 0 0 6px #f4c165;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000357}}
+article h1, article h2, article legend, article h3, article label, article .field .field-label, .field article .field-label, article .field label, .field article label, article h4, article h5, article .view-tournaments-title .views-row .views-field-title > *, .view-tournaments-title .views-row article .views-field-title > *, article h6 {
+  margin: 1em 0 0.5em;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_lists\.sass}line{font-family:\000031}}
 ul {
@@ -285,58 +289,53 @@ fieldset .form-wrapper .form-item {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\000031}}
-.field-collection-container {
-  border-bottom: 0;
-  margin-bottom: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000341}}
+.field-name-field-timetable .field-item {
+  margin: 0.5em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000313}}
-.field-collection-container .field-name-field-timetable .field-items .field-item {
-  margin-bottom: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000317}}
-.field-collection-container .field-name-field-timetable .field-items .field-item .field-collection-view {
-  margin: 0;
-  padding: 0.5em 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000327}}
-.field-collection-container .field-name-field-timetable .field-items .field-item .field-collection-view .content > * {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000347}}
+.field-name-field-timetable .field-item .field {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000331}}
-.field-collection-container .field-name-field-timetable .field-items .field-item .field-collection-view .content .field-name-field-timetable-date {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000353}}
+.field-name-field-timetable .field-item .field .field-item {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000359}}
+.field-name-field-timetable .field-item .field-name-field-timetable-date {
   float: left;
   margin-right: 2em;
+  font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000373}}
 form .field-name-field-timetable td:nth-child(2) > * {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000381}}
 form .field-name-field-timetable td:nth-child(2) .field-type-datetime fieldset {
   border: none;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000389}}
 form .field-name-field-timetable td:nth-child(2) .field-type-datetime fieldset .date-padding {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000393}}
 form .field-name-field-timetable td:nth-child(2) .field-type-datetime fieldset .date-padding > * {
   display: inline-block;
   float: none;
   margin-right: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\00003103}}
 form .field-name-field-timetable td:nth-child(2) .form-submit {
   margin: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\00003117}}
 form .field-name-field-timetable td:nth-child(2) .form-wrapper {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_timetable\.sass}line{font-family:\00003125}}
 form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   display: none;
 }
@@ -508,21 +507,6 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_mission\.sass}line{font-family:\000031}}
   #block-block-6 {
     font-size: 2em;
-  }
-}
-
-@media (min-width: 801px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/nodes\/_tournament\.sass}line{font-family:\000033}}
-  .node-tournament .field-group-format {
-    width: 47.82609%;
-    float: left;
-    margin-right: 4.34783%;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/nodes\/_tournament\.sass}line{font-family:\0000313}}
-  .node-tournament .field-group-format:nth-child(even) {
-    width: 47.82609%;
-    float: right;
-    margin-right: 0;
   }
 }
 
