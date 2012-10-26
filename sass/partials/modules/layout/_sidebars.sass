@@ -1,0 +1,7 @@
+.sidebar-first
+  +at-breakpoint($layout-xlarge-and-above)
+    $main-col: 9
+    #content
+      +span-columns($main-col, $cols-large)
+    #sidebar-first
+      +span-columns($cols-large - $main-col omega, $cols-large)

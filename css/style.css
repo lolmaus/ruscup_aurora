@@ -106,6 +106,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   }
 }
 
+@media (min-width: 801px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/layout\/_sidebars\.sass}line{font-family:\000037}}
+  .sidebar-first #content {
+    width: 73.91304%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/layout\/_sidebars\.sass}line{font-family:\0000311}}
+  .sidebar-first #sidebar-first {
+    width: 21.73913%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_html\.sass}line{font-family:\000031}}
 html {
   color: #ffe8c7;
