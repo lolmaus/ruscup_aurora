@@ -1,0 +1,24 @@
+fieldset.captcha
+  border:   0
+  padding:  0
+  //
+  //.recaptchatable
+  //  border:   0 !important
+  #recaptcha_image
+    float: left
+    margin-right: 2em
+
+    img
+      +border-radius(1em)
+
+  .recaptcha_only_if_image,
+  .recaptcha_help
+    display: none !important
+
+  #recaptcha_response_field
+    margin-bottom: 0.5em
+
+  .recaptcha_get_another_captcha
+    a
+      text-decoration: none
+      border-bottom: 1px dashed

@@ -14,7 +14,7 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.13\.alpha\.0\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
 html, body, div, span, applet, object, iframe,
-h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, h6, p, blockquote, pre,
+h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -107,15 +107,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @media (min-width: 801px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/layout\/_sidebars\.sass}line{font-family:\000037}}
-  .sidebar-first #content {
-    width: 73.91304%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/layout\/_sidebars\.sass}line{font-family:\000039}}
+  .not-front.sidebar-first #content-after-title {
+    width: 65.21739%;
     float: left;
     margin-right: 4.34783%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/layout\/_sidebars\.sass}line{font-family:\0000311}}
-  .sidebar-first #sidebar-first {
-    width: 21.73913%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/layout\/_sidebars\.sass}line{font-family:\0000313}}
+  .not-front.sidebar-first #sidebar-first {
+    width: 30.43478%;
     float: right;
     margin-right: 0;
   }
@@ -179,7 +179,7 @@ h6 {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000323}}
-h5, .view-tournaments-title .views-row .views-field-title > * {
+h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend {
   font-size: 1.33333em;
 }
 
@@ -220,13 +220,13 @@ h1 span {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000347}}
-h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, h6 {
+h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6 {
   font-family: "PT Serif";
   color: #f4c165;
   text-shadow: 0 0 6px #f4c165;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000357}}
-article h1, article h2, article legend, article h3, article label, article .field .field-label, .field article .field-label, article .field label, .field article label, article h4, article h5, article .view-tournaments-title .views-row .views-field-title > *, .view-tournaments-title .views-row article .views-field-title > *, article h6 {
+article h1, article h2, article legend, article h3, article label, article .field .field-label, .field article .field-label, article .field label, .field article label, article h4, article h5, article .view-tournaments-title .views-row .views-field-title > *, .view-tournaments-title .views-row article .views-field-title > *, article .view-news-per-tournament h2, .view-news-per-tournament article h2, article .view-news-per-tournament legend, .view-news-per-tournament article legend, article h6 {
   margin: 1em 0 0.5em;
 }
 
@@ -282,6 +282,22 @@ form table tr td .handle, table.views-table tr td .handle {
 legend a {
   text-decoration: none;
   border-bottom: 2px dashed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_input\.sass}line{font-family:\000033}}
+input[type=submit] {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  background-color: #583214;
+  color: #ffe8c7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_input\.sass}line{font-family:\0000313}}
+input[type=submit]:hover {
+  background-color: #ffe8c7;
+  color: #583214;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\000031}}
@@ -422,6 +438,39 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
 .vertical-tabs ul.vertical-tabs-list li.selected strong {
   color: #f4c165;
   border-bottom: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\000031}}
+fieldset.captcha {
+  border: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\0000313}}
+fieldset.captcha #recaptcha_image {
+  float: left;
+  margin-right: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\0000321}}
+fieldset.captcha #recaptcha_image img {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\0000327}}
+fieldset.captcha .recaptcha_only_if_image,
+fieldset.captcha .recaptcha_help {
+  display: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\0000335}}
+fieldset.captcha #recaptcha_response_field {
+  margin-bottom: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\0000343}}
+fieldset.captcha .recaptcha_get_another_captcha a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_blocks\.sass}line{font-family:\000031}}
@@ -735,6 +784,12 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   margin-left: 0;
   width: 3em;
   float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000311}}
+.view-news-per-tournament .current-date {
+  font-size: 0.7em;
+  color: #d0bea3;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/stuff\/_colorbox\.sass}line{font-family:\000033}}

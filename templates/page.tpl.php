@@ -114,19 +114,23 @@
                 <?php print $title; ?>
               </h1>
             <?php endif; ?>
-            <?php print render($title_suffix); ?>
-            <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
-            <?php print render($page['help']); ?>
-            <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-            <?php print render($page['content']); ?>
-            <?php print $feed_icons; ?>
-          </div>
 
-          <?php if ($page['sidebar_first']): ?>
-            <aside id="sidebar-first" role="complementary" class="column sidebar">
-              <?php print render($page['sidebar_first']); ?>
-            </aside><!-- #sidebar-first -->
-          <?php endif; ?>
+            <div id="content-after-title">
+              <?php print render($title_suffix); ?>
+              <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
+              <?php print render($page['help']); ?>
+              <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+              <?php print render($page['content']); ?>
+              <?php print $feed_icons; ?>
+            </div><!-- #content-after-title -->
+
+            <?php if ($page['sidebar_first']): ?>
+              <aside id="sidebar-first" role="complementary" class="column sidebar">
+                <?php print render($page['sidebar_first']); ?>
+              </aside><!-- #sidebar-first -->
+            <?php endif; ?>
+
+          </div><!-- #content -->
 
           <?php if ($page['sidebar_second']): ?>
             <aside id="sidebar-second" role="complementary" class="column sidebar">

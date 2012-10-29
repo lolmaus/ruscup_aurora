@@ -1,7 +1,8 @@
-.sidebar-first
+//.not-front
+.not-front.sidebar-first
   +at-breakpoint($layout-xlarge-and-above)
-    $main-col: 9
-    #content
+    $main-col: 8
+    #content-after-title
       +span-columns($main-col, $cols-large)
     #sidebar-first
       +span-columns($cols-large - $main-col omega, $cols-large)
