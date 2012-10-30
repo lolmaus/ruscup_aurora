@@ -1,12 +1,13 @@
-.views-field-field-image, .field-name-field-image
-  img
-    +border-radius(1em)
+.field-name-field-image
+  &, .views-field-field-image
+    img
+      +border-radius(1em)
 
-.page-node
-  .field-name-field-image
-    +at-breakpoint($layout-large-and-above)
-      max-width:    100%
-      width:        50%
-      height:       auto
-      float:        right
-      margin-left:  $vertical-margin
+  .content-after-title
+    &
+      +at-breakpoint($layout-large-and-above)
+        max-width:    100%
+        width:        50%
+        height:       auto
+        float:        right
+        margin-left:  $vertical-margin
