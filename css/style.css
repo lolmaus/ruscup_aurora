@@ -804,6 +804,10 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   font-size: 0.7em;
   color: #d0bea3;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000319}}
+.view-news-per-tournament .field-name-field-image {
+  margin-bottom: 0;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/stuff\/_colorbox\.sass}line{font-family:\000033}}
 #colorbox, #colorbox * {
