@@ -441,15 +441,17 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\000035}}
-.field-name-field-image img, .field-name-field-image .views-field-field-image img {
+.field-name-field-image img,
+.views-field-field-image img {
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   -ms-border-radius: 1em;
   -o-border-radius: 1em;
   border-radius: 1em;
 }
+
 @media (min-width: 601px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\0000313}}
   #content-after-title .field-name-field-image {
     max-width: 100%;
     width: 50%;
@@ -660,6 +662,36 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   #block-block-6 {
     font-size: 2em;
   }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_tournament-items-menu\.sass}line{font-family:\000033}}
+#block-block-8 ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: visible;
+  line-height: 1.2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/global\/mixins\/_horiz-list\.sass}line{font-family:\0000337}}
+#block-block-8 ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  padding-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/global\/mixins\/_horiz-list\.sass}line{font-family:\0000321}}
+#block-block-8 ul li:last-child, #block-block-8 ul li.last, #block-block-8 ul li.last-item {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_tournament-items-menu\.sass}line{font-family:\000037}}
+#block-block-8 ul li {
+  display: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\000037}}
