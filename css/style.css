@@ -440,6 +440,15 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   border-bottom: none !important;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\000033}}
+.views-field-field-image img, .field-name-field-image img {
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\000031}}
 fieldset.captcha {
   border: 0;
