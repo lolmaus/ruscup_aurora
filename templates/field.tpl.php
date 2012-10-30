@@ -43,6 +43,7 @@
  */
 ?>
 <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
+  <a name="<?php print $element['#field_name']; ?>"></a>
   <?php if (!$label_hidden): ?>
     <div class="field-label"<?php print $title_attributes; ?>><?php print $label ?></div>
   <?php endif; ?>
