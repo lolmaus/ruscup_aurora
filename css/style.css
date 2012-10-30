@@ -14,7 +14,7 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.13\.alpha\.0\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
 html, body, div, span, applet, object, iframe,
-h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6, p, blockquote, pre,
+h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6, p, .field-name-field-tournaments .field-items, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -159,7 +159,7 @@ a.active, li a.active {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_p\.sass}line{font-family:\000031}}
-p {
+p, .field-name-field-tournaments .field-items {
   margin: 1em 0;
 }
 
@@ -493,12 +493,32 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   border-bottom: 1px dashed;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_tournaments\.sass}line{font-family:\000031}}
+.field-name-field-tournaments {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_tournaments\.sass}line{font-family:\0000315}}
+.field-name-field-tournaments .field-items .field-item {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  padding-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/global\/mixins\/_horiz-list\.sass}line{font-family:\0000321}}
+.field-name-field-tournaments .field-items .field-item:last-child, .field-name-field-tournaments .field-items .field-item.last, .field-name-field-tournaments .field-items .field-item.last-item {
+  padding-right: 0;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_blocks\.sass}line{font-family:\000031}}
 .block {
   margin-bottom: 2em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_blocks\.sass}line{font-family:\000039}}
-.block .content :last-child {
+.block .content > :last-child {
   margin-bottom: 0;
 }
 
@@ -525,7 +545,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_slogan\.sass}line{font-family:\000033}}
-#block-block-5 p {
+#block-block-5 p, #block-block-5 .field-name-field-tournaments .field-items, .field-name-field-tournaments #block-block-5 .field-items {
   margin-top: 0.5em;
 }
 
@@ -843,7 +863,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   margin-bottom: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/sections\/_header\.sass}line{font-family:\000039}}
-#header-wrapper h2, #header-wrapper legend, #header-wrapper p, #header-wrapper li, #header-wrapper a {
+#header-wrapper h2, #header-wrapper legend, #header-wrapper p, #header-wrapper .field-name-field-tournaments .field-items, .field-name-field-tournaments #header-wrapper .field-items, #header-wrapper li, #header-wrapper a {
   color: #fff2e1;
   text-shadow: 0 0 6px #1c1007, 0 0 6px #1c1007, 0 0 6px #1c1007;
 }
