@@ -49,3 +49,4 @@ settings[aurora_modernizr_debug] = 1
 ; Custom
 
 scripts[] = javascripts/viewport.js
+scripts[] = javascripts/youtube-height.js

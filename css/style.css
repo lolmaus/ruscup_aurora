@@ -512,6 +512,22 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   padding-right: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\000035}}
+.field-name-field-video .field-item {
+  margin-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\0000311}}
+.field-name-field-video .field-item iframe {
+  width: 100%;
+}
+@media (min-width: 801px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\000031}}
+  .field-name-field-video {
+    float: right;
+    margin-left: 2em;
+  }
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_blocks\.sass}line{font-family:\000031}}
 .block {
   margin-bottom: 2em;
