@@ -449,6 +449,17 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   border-radius: 1em;
 }
 
+@media (min-width: 601px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\0000311}}
+  .page-node .field-name-field-image {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-left: 2em;
+  }
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_captcha\.sass}line{font-family:\000031}}
 fieldset.captcha {
   border: 0;
