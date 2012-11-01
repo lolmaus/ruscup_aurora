@@ -12,3 +12,14 @@
 
   .field-name-field-video
     margin-bottom: 0
+
+/* Title page block */
+#block-views-news-per-tournament-block-1
+  +at-breakpoint($layout-large-and-above)
+    .views-row
+      display:        inline-block
+      vertical-align: top
+      width:          columns($cols-large/2,$cols-large)
+
+      &:nth-child(even)
+        margin-left:  gutter($cols-large)
