@@ -954,8 +954,12 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   -moz-box-shadow: 0 0 20px black;
   box-shadow: 0 0 20px black;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/sections\/_page\.sass}line{font-family:\0000317}}
+#page-wrapper .region .block:last-child {
+  margin-bottom: 1em;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/sections\/_footer\.sass}line{font-family:\000031}}
 #footer-wrapper {
-  margin-top: 2em;
+  margin-top: 1em;
 }
