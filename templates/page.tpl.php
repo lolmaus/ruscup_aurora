@@ -69,22 +69,23 @@
 
   <div id="site-wrapper">
 
-    <div id="header-wrapper" class="wrapper">
-      <div id="header" role="banner" class="clearfix">
-        <div id="header-inner">
-
-          <header id="header-first">
-            <?php print render($page['header-first']); ?>
-          </header><!-- #header-first -->
-
-          <div id="header-second">
-            <?php print render($page['header-second']); ?>
-          </div>
-        </div><!-- #header-inner -->
-      </div><!-- #header -->
-    </div><!-- #header-wrapper -->
-
     <div id="page-wrapper" class="wrapper">
+
+      <div id="header-wrapper" class="wrapper">
+        <div id="header" role="banner" class="clearfix">
+          <div id="header-inner">
+
+            <header id="header-first">
+              <?php print render($page['header-first']); ?>
+            </header><!-- #header-first -->
+
+            <div id="header-second">
+              <?php print render($page['header-second']); ?>
+            </div>
+          </div><!-- #header-inner -->
+        </div><!-- #header -->
+      </div><!-- #header-wrapper -->
+
       <div id="page" role="document">
 
         <!-- #content-prefix -->
