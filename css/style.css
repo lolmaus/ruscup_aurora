@@ -14,7 +14,7 @@ img {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p194\/gems\/compass-0\.13\.alpha\.0\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
 html, body, div, span, applet, object, iframe,
-h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6, p, .field-name-field-tournaments .field-items, .view-news-per-tournament .field-name-field-image, blockquote, pre,
+h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6, p, .field-name-field-tournaments .field-items, .view-news-per-tournament .field-name-field-image, .view-news-per-tournament .views-field-created, .view-news-per-tournament .views-field-field-tournaments, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -180,7 +180,7 @@ a.active, li a.active {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_p\.sass}line{font-family:\000031}}
-p, .field-name-field-tournaments .field-items, .view-news-per-tournament .field-name-field-image {
+p, .field-name-field-tournaments .field-items, .view-news-per-tournament .field-name-field-image, .view-news-per-tournament .views-field-created, .view-news-per-tournament .views-field-field-tournaments {
   margin: 1em 0;
 }
 
@@ -481,10 +481,18 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
   -o-border-radius: 1em;
   border-radius: 1em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\0000311}}
+.field-name-field-image a:hover, .field-name-field-image a:active,
+.views-field-field-image a:hover,
+.views-field-field-image a:active {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
 
 @media (min-width: 601px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\0000313}}
-  #content-after-title .field-name-field-image {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_image\.sass}line{font-family:\0000325}}
+  #content-after-title .node .field-name-field-image {
     max-width: 100%;
     width: 50%;
     height: auto;
@@ -551,17 +559,17 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   padding-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\000035}}
-.field-name-field-video .field-item {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\000037}}
+.node .field-name-field-video .field-item {
   margin-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\0000311}}
-.field-name-field-video .field-item iframe {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\0000313}}
+.node .field-name-field-video .field-item iframe {
   width: 100%;
 }
 @media (min-width: 801px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\0000319}}
-  #content-after-title .field-name-field-video {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_youtube\.sass}line{font-family:\0000321}}
+  #content-after-title .node .field-name-field-video {
     float: right;
     margin-left: 2em;
   }
@@ -599,7 +607,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_slogan\.sass}line{font-family:\000033}}
-#block-block-5 p, #block-block-5 .field-name-field-tournaments .field-items, .field-name-field-tournaments #block-block-5 .field-items, #block-block-5 .view-news-per-tournament .field-name-field-image, .view-news-per-tournament #block-block-5 .field-name-field-image {
+#block-block-5 p, #block-block-5 .field-name-field-tournaments .field-items, .field-name-field-tournaments #block-block-5 .field-items, #block-block-5 .view-news-per-tournament .field-name-field-image, .view-news-per-tournament #block-block-5 .field-name-field-image, #block-block-5 .view-news-per-tournament .views-field-created, .view-news-per-tournament #block-block-5 .views-field-created, #block-block-5 .view-news-per-tournament .views-field-field-tournaments, .view-news-per-tournament #block-block-5 .views-field-field-tournaments {
   margin-top: 0.5em;
 }
 
@@ -931,7 +939,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000311}}
-.view-news-per-tournament .current-date {
+.view-news-per-tournament .current-date, .view-news-per-tournament .views-field-created, .view-news-per-tournament .views-field-field-tournaments {
   font-size: 0.7em;
   color: #d0bea3;
 }
@@ -941,14 +949,28 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 }
 
 /* Title page block */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000339}}
+#block-views-news-per-tournament-block-1 .views-field-field-video ul {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000343}}
+#block-views-news-per-tournament-block-1 .views-field-field-video ul li {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000347}}
+#block-views-news-per-tournament-block-1 .views-field-field-video ul li iframe {
+  width: 100% !important;
+}
 @media (min-width: 601px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000355}}
   #block-views-news-per-tournament-block-1 .views-row {
     display: inline-block;
     vertical-align: top;
     width: 47.82609%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_news_per_tournament\.sass}line{font-family:\0000365}}
   #block-views-news-per-tournament-block-1 .views-row:nth-child(even) {
     margin-left: 4.34783%;
   }
@@ -976,7 +998,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   background-image: linear-gradient(#ff0000, #ffa500);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/sections\/_header\.sass}line{font-family:\000039}}
-#header-wrapper h2, #header-wrapper legend, #header-wrapper p, #header-wrapper .field-name-field-tournaments .field-items, .field-name-field-tournaments #header-wrapper .field-items, #header-wrapper .view-news-per-tournament .field-name-field-image, .view-news-per-tournament #header-wrapper .field-name-field-image, #header-wrapper li, #header-wrapper a {
+#header-wrapper h2, #header-wrapper legend, #header-wrapper p, #header-wrapper .field-name-field-tournaments .field-items, .field-name-field-tournaments #header-wrapper .field-items, #header-wrapper .view-news-per-tournament .field-name-field-image, .view-news-per-tournament #header-wrapper .field-name-field-image, #header-wrapper .view-news-per-tournament .views-field-created, .view-news-per-tournament #header-wrapper .views-field-created, #header-wrapper .view-news-per-tournament .views-field-field-tournaments, .view-news-per-tournament #header-wrapper .views-field-field-tournaments, #header-wrapper li, #header-wrapper a {
   color: #fff2e1;
   text-shadow: 0 0 6px #1c1007, 0 0 6px #1c1007, 0 0 6px #1c1007;
 }

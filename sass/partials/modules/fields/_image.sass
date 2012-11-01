@@ -3,11 +3,17 @@
   img
     +border-radius(1em)
 
-.field-name-field-image
-  #content-after-title &
-    +at-breakpoint($layout-large-and-above)
-      max-width:    100%
-      width:        50%
-      height:       auto
-      float:        right
-      margin-left:  $vertical-margin
+  a:hover, a:active
+    margin:   0
+    padding:  0
+    background-color: transparent
+
+.node
+  .field-name-field-image
+    #content-after-title &
+      +at-breakpoint($layout-large-and-above)
+        max-width:    100%
+        width:        50%
+        height:       auto
+        float:        right
+        margin-left:  $vertical-margin
