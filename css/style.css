@@ -693,6 +693,11 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 #block-block-8 ul li {
   display: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_tournament-items-menu\.sass}line{font-family:\0000313}}
+#block-block-8 ul li a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\000037}}
 .view-tournaments-title {
