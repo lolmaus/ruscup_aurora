@@ -3,11 +3,11 @@
   h2
     @extend h5
 
-  .current-date
+  .current-date, .views-field-created, .views-field-field-tournaments
     font-size:  0.7em
     color:      $color-pale
 
-  .field-name-field-image
+  .field-name-field-image, .views-field-created, .views-field-field-tournaments
     @extend p
 
   .field-name-field-video
@@ -15,6 +15,15 @@
 
 /* Title page block */
 #block-views-news-per-tournament-block-1
+
+  .views-field-field-video
+    ul
+      +no-bullet
+      li
+        margin-left: 0
+        iframe
+          width: 100% !important
+
   +at-breakpoint($layout-large-and-above)
     .views-row
       display:        inline-block
