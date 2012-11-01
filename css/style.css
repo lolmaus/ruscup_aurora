@@ -126,7 +126,7 @@ html {
   color: #ffe8c7;
   background-color: #1c1007;
   font-size: 16px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 @media (min-width: 1001px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_html\.sass}line{font-family:\000031}}
@@ -221,7 +221,7 @@ h1 span {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000347}}
 h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6 {
-  font-family: "PT Serif";
+  font-family: "PT Serif", Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   color: #f4c165;
   text-shadow: 0 0 6px #f4c165;
 }
@@ -245,7 +245,7 @@ ul.primary li.active a {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_textarea\.sass}line{font-family:\000031}}
 textarea {
-  font-family: "PT Mono";
+  font-family: "PT Mono", "Courier New", Courier, "Andale Mono", monospace;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_tables\.sass}line{font-family:\000033}}
@@ -267,7 +267,7 @@ form table tr td, table.views-table tr td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_tables\.sass}line{font-family:\0000325}}
 form table tr td legend, form table tr td label, table.views-table tr td legend, table.views-table tr td label {
   color: #ffe8c7;
-  font-family: "PT Sans";
+  font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: none;
   font-size: 1em;
 }
@@ -340,7 +340,7 @@ fieldset .form-wrapper .form-item {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000367}}
 .field-type-entityreference .form-item div label {
   color: #ffe8c7;
-  font-family: "PT Sans";
+  font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: none;
   font-size: 1em;
 }
@@ -546,7 +546,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/blocks\/_site-title\.sass}line{font-family:\000037}}
 .block.site-title h2, .block.site-title legend {
-  font-family: "PT Serif";
+  font-family: "PT Serif", Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -647,7 +647,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   margin-right: 10%;
   text-align: center;
   font-size: 1.2em;
-  font-family: "PT Serif";
+  font-family: "PT Serif", Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   font-style: italic;
   text-shadow: 0 0 6px #f4c165;
 }
