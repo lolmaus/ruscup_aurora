@@ -23,3 +23,12 @@ a
   &.active, li &.active
     color:            $color-main
     text-decoration:  none
+
+  &.nolink
+    color:          $color-headers-main
+    +border-radius(0)
+    padding:        0
+    margin:         0
+    +transition(none)
+    &:hover
+      background-color: transparent
