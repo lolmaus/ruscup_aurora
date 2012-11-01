@@ -43,9 +43,9 @@
  */
 ?>
 <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <a name="<?php print $element['#field_name']; ?>"></a>
+
   <?php if (!$label_hidden): ?>
-    <div class="field-label"<?php print $title_attributes; ?>><?php print $label ?></div>
+<div class="field-label"<?php print $title_attributes; ?>><a class="nolink" name="<?php print $element['#field_name']; ?>"><?php print $label ?></a></div>
   <?php endif; ?>
   <div class="field-items"<?php print $content_attributes; ?>>
     <?php foreach ($items as $delta => $item): ?>
