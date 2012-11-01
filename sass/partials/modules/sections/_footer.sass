@@ -1,2 +1,8 @@
 #footer-wrapper
   margin-top: $vertical-margin/2
+
+  +at-breakpoint($layout-large-and-above)
+    #block-menu-block-1
+      +span-columns(3, $cols-large)
+    #block-block-9, #block-system-navigation
+      +span-columns(3 omega, $cols-large)
