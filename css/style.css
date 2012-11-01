@@ -302,7 +302,12 @@ form table tr td .handle, table.views-table tr td .handle {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_legend\.sass}line{font-family:\000035}}
 legend a {
   text-decoration: none;
-  border-bottom: 2px dashed;
+  border-bottom: 1px dashed;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_input\.sass}line{font-family:\000033}}
@@ -444,7 +449,13 @@ form .field-name-field-timetable td:nth-child(2) .field-type-datetime legend {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_vertical-tabs\.sass}line{font-family:\000039}}
 .vertical-tabs ul.vertical-tabs-list li strong {
+  text-decoration: none;
   border-bottom: 1px dashed;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_vertical-tabs\.sass}line{font-family:\0000313}}
 .vertical-tabs ul.vertical-tabs-list li a:hover strong {
@@ -513,6 +524,11 @@ fieldset.captcha #recaptcha_response_field {
 fieldset.captcha .recaptcha_get_another_captcha a {
   text-decoration: none;
   border-bottom: 1px dashed;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_tournaments\.sass}line{font-family:\000031}}
@@ -718,6 +734,11 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 #block-block-8 ul li a {
   text-decoration: none;
   border-bottom: 1px dashed;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\000037}}
