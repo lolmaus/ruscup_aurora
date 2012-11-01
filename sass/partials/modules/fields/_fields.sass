@@ -9,8 +9,10 @@
       margin-top: 0
 
 .field-label-inline
-  .field-label:after
-    content: ": "
+  .field-label
+    margin: 0 !important
+    &:after
+      content: ": "
 
 fieldset
   border: 1px solid $color-main

@@ -233,12 +233,6 @@ h1 {
 h1 span {
   font-weight: normal;
 }
-@media (min-width: 601px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000329}}
-  h1 {
-    font-size: 3em;
-  }
-}
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000347}}
 h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tournaments-title .views-row .views-field-title > *, .view-news-per-tournament h2, .view-news-per-tournament legend, h6 {
@@ -248,7 +242,7 @@ h1, h2, legend, h3, label, .field .field-label, .field label, h4, h5, .view-tour
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_headings\.sass}line{font-family:\0000357}}
 article h1, article h2, article legend, article h3, article label, article .field .field-label, .field article .field-label, article .field label, .field article label, article h4, article h5, article .view-tournaments-title .views-row .views-field-title > *, .view-tournaments-title .views-row article .views-field-title > *, article .view-news-per-tournament h2, .view-news-per-tournament article h2, article .view-news-per-tournament legend, .view-news-per-tournament article legend, article h6 {
-  margin: 1em 0 0.5em;
+  margin: 0.5em 0 0.2em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_lists\.sass}line{font-family:\000031}}
@@ -342,41 +336,45 @@ input[type=submit]:hover {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000323}}
+.field-label-inline .field-label {
+  margin: 0 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000327}}
 .field-label-inline .field-label:after {
   content: ": ";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000333}}
 fieldset {
   border: 1px solid #ffe8c7;
   padding: 2em;
   margin-bottom: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000347}}
 fieldset .form-wrapper {
   margin: 2em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000351}}
 fieldset .form-wrapper:first-of-type {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000355}}
 fieldset .form-wrapper:last-of-type {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000359}}
 fieldset .form-wrapper .form-item {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000371}}
 .field-type-entityreference .form-item div label {
   color: #ffe8c7;
   font-family: "PT Sans", Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: none;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/fields\/_fields\.sass}line{font-family:\0000379}}
 .field-type-entityreference .field-items .field-label {
   font-size: 1em;
 }
