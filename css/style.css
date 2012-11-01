@@ -999,6 +999,11 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   height: auto;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/stuff\/_admin-fixes\.sass}line{font-family:\000031}}
+#edit-semantics, .form-item-css-class {
+  display: none;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/sections\/_header\.sass}line{font-family:\000031}}
 #header-wrapper {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff0000), color-stop(100%, #ffa500));
