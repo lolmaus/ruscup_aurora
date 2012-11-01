@@ -138,21 +138,42 @@ html {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\000031}}
 a {
   color: white;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  padding: 0 0.2em;
+  margin: 0 -0.2em;
+  -webkit-transition: background-color linear 0.5s, color linear 0.5s;
+  -moz-transition: background-color linear 0.5s, color linear 0.5s;
+  -ms-transition: background-color linear 0.5s, color linear 0.5s;
+  -o-transition: background-color linear 0.5s, color linear 0.5s;
+  transition: background-color linear 0.5s, color linear 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000317}}
+a img {
+  -webkit-transition: opacity linear 0.5s;
+  -moz-transition: opacity linear 0.5s;
+  -ms-transition: opacity linear 0.5s;
+  -o-transition: opacity linear 0.5s;
+  transition: opacity linear 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000323}}
 a:visited {
   color: mistyrose;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000329}}
 a:hover, a:active {
   color: orange;
+  background-color: rgba(255, 255, 255, 0.2);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000333}}
 a:hover img, a:active img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/html\/_a\.sass}line{font-family:\0000345}}
 a.active, li a.active {
   color: #ffe8c7;
   text-decoration: none;
@@ -741,8 +762,14 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 #block-views-tournaments-title-block-1 {
   margin-bottom: 0;
 }
-@media (min-width: 401px) and (max-width: 600px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003115}}
+#block-views-tournaments-title-block-1 a:hover, #block-views-tournaments-title-block-1 a:active {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+@media (min-width: 401px) and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003125}}
   #block-views-tournaments-title-block-1 .views-row {
     display: inline-block;
     width: 46.66667%;
@@ -752,7 +779,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   #block-views-tournaments-title-block-1 .views-row:nth-child(2n+0) {
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003133}}
   #block-views-tournaments-title-block-1 .views-row:first-child, #block-views-tournaments-title-block-1 .views-row:nth-child(2) {
     display: inline-block;
     width: 100%;
@@ -795,7 +822,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   }
 }
 @media (min-width: 601px) and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003125}}
   #block-views-tournaments-title-block-1 .views-row {
     display: inline-block;
     width: 47.82609%;
@@ -807,7 +834,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   }
 }
 @media (min-width: 801px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003125}}
   #block-views-tournaments-title-block-1 .views-row {
     display: inline-block;
     width: 30.43478%;
@@ -817,7 +844,7 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   #block-views-tournaments-title-block-1 .views-row:nth-child(3n+5) {
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/aegir\/platforms\/drupal-7-a\/sites\/all\/themes\/ruscup_aurora\/sass\/partials\/modules\/views\/_tournaments_front\.sass}line{font-family:\00003153}}
   #block-views-tournaments-title-block-1 .views-row:first-child, #block-views-tournaments-title-block-1 .views-row:nth-child(2) {
     display: inline-block;
     width: 47.82609%;

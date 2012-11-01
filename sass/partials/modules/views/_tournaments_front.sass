@@ -55,6 +55,11 @@ $label-padding: 0.2em
 #block-views-tournaments-title-block-1
   margin-bottom: 0 // Margin is set per-row
 
+  a:hover, a:active
+    margin:   0
+    padding:  0
+    background-color: transparent
+
   .views-row
     +at-breakpoint($layout-medium)
       +tournament-thumbs($cols-medium,$cols-medium/2)

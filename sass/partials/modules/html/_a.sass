@@ -1,5 +1,13 @@
 a
   color: $color-link
+  +border-radius(1em)
+  padding: 0 0.2em
+  margin:  0 -0.2em
+
+  $transiti: linear 0.5s
+  +transition(background-color $transiti, color $transiti)
+  img
+    +transition(opacity $transiti)
 
   &:visited
     color: $color-link-visited
@@ -8,6 +16,9 @@ a
     color: $color-link-active
     img
       +opacity(0.7)
+
+
+    background-color: rgba(white,0.2)
 
   &.active, li &.active
     color:            $color-main
