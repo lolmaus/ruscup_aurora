@@ -13,4 +13,4 @@ preferred_syntax  = :sass
 # No need to make it compact because CMS will do code compression.
 output_style      = :expanded #or :nested or :compact or :compressed
 line_comments     = true
-sass_options      = {:debug_info => true}
+sass_options      = {:debug_info => false}
