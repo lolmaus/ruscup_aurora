@@ -619,6 +619,26 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   margin: 0.5em 0;
 }
 
+/* line 3, ../sass/partials/modules/fields/_categories-per-view.sass */
+.field-name-field-categories-view .views-row {
+  *zoom: 1;
+  margin: 0.5em 0;
+}
+/* line 38, ../../../../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.field-name-field-categories-view .views-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 11, ../sass/partials/modules/fields/_categories-per-view.sass */
+.field-name-field-categories-view .views-row .views-field-php {
+  float: right;
+}
+/* line 15, ../sass/partials/modules/fields/_categories-per-view.sass */
+.field-name-field-categories-view .views-row .views-field-php p, .field-name-field-categories-view .views-row .views-field-php .field-name-field-tournaments .field-items, .field-name-field-tournaments .field-name-field-categories-view .views-row .views-field-php .field-items, .field-name-field-categories-view .views-row .views-field-php .view-news-per-tournament .field-name-field-image, .view-news-per-tournament .field-name-field-categories-view .views-row .views-field-php .field-name-field-image, .field-name-field-categories-view .views-row .views-field-php .view-news-per-tournament .views-field-created, .view-news-per-tournament .field-name-field-categories-view .views-row .views-field-php .views-field-created, .field-name-field-categories-view .views-row .views-field-php .view-news-per-tournament .views-field-field-tournaments, .view-news-per-tournament .field-name-field-categories-view .views-row .views-field-php .views-field-field-tournaments {
+  margin: 0;
+}
+
 /* line 1, ../sass/partials/modules/blocks/_blocks.sass */
 .block {
   margin-bottom: 2em;
@@ -1041,6 +1061,11 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 /* line 1, ../sass/partials/modules/stuff/_admin-fixes.sass */
 #edit-semantics, .form-item-css-class {
   display: none;
+}
+
+/* line 7, ../sass/partials/modules/stuff/_admin-fixes.sass */
+.node-unpublished {
+  background-color: transparent;
 }
 
 /* line 1, ../sass/partials/modules/sections/_header.sass */
