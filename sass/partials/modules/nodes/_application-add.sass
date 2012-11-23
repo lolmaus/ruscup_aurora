@@ -1,0 +1,58 @@
+#application-node-form
+
+
+  fieldset#node_application_form_group_partners,
+  fieldset#node_application_form_group_pair_wrapper
+    border-width: 0px
+    padding:      0px
+    &>legend
+      display: none
+
+    +at-breakpoint($layout-large-and-above)
+      fieldset
+        margin-bottom: 0
+
+      &>*>fieldset:first-child
+        +span-columns($cols-large/2, $cols-large)
+      &>*>fieldset:last-child
+        +span-columns($cols-large/2 omega, $cols-large)
+        margin-top: 0
+
+  label
+    float:        left
+    width:        5em
+    margin-right: 1em
+
+  input[type="text"], select
+    width:        10em
+    max-width:    100%
+    margin-top:   0.5em
+
+  .field-type-datetime
+
+
+    fieldset
+      border-width: 0
+      padding:      0px
+
+      legend
+        display: none
+
+      .date-no-float.container-inline-date
+        width: auto
+
+        .form-type-date-popup
+          display: block
+
+          .date-padding
+            padding: 0
+            float:   none
+
+            .form-type-textfield
+              float: none
+
+              &>*
+                display: inline-block
+
+              label:after
+                content: " рождения"

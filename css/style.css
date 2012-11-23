@@ -1,12 +1,14 @@
 @charset "UTF-8";
-/* line 8, ../../../../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/toolkit-0.2.0.1/stylesheets/toolkit/_border-box.scss */
-* {
+/* line 10, ../../../../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/toolkit-0.2.1.1/stylesheets/toolkit/_border-box.scss */
+*,
+*:after,
+*:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, ../../../../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/toolkit-0.2.0.1/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../../../../../../../usr/local/rvm/gems/ruby-1.9.3-p194/gems/toolkit-0.2.1.1/stylesheets/toolkit/_fluid-media.scss */
 img, video {
   max-width: 100%;
   height: auto;
@@ -817,6 +819,86 @@ fieldset.captcha .recaptcha_get_another_captcha a {
 /* line 3, ../sass/partials/modules/blocks/_login-for-staff.sass */
 #block-block-9 p, #block-block-9 .field-name-field-tournaments .field-items, .field-name-field-tournaments #block-block-9 .field-items, #block-block-9 .view-news-per-tournament .field-name-field-image, .view-news-per-tournament #block-block-9 .field-name-field-image, #block-block-9 .view-news-per-tournament .views-field-created, .view-news-per-tournament #block-block-9 .views-field-created, #block-block-9 .view-news-per-tournament .views-field-field-tournaments, .view-news-per-tournament #block-block-9 .views-field-field-tournaments {
   margin: 0;
+}
+
+/* line 7, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form fieldset#node_application_form_group_partners,
+#application-node-form fieldset#node_application_form_group_pair_wrapper {
+  border-width: 0px;
+  padding: 0px;
+}
+/* line 15, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form fieldset#node_application_form_group_partners > legend,
+#application-node-form fieldset#node_application_form_group_pair_wrapper > legend {
+  display: none;
+}
+@media (min-width: 601px) {
+  /* line 23, ../sass/partials/modules/nodes/_application-add.sass */
+  #application-node-form fieldset#node_application_form_group_partners fieldset,
+  #application-node-form fieldset#node_application_form_group_pair_wrapper fieldset {
+    margin-bottom: 0;
+  }
+  /* line 29, ../sass/partials/modules/nodes/_application-add.sass */
+  #application-node-form fieldset#node_application_form_group_partners > * > fieldset:first-child,
+  #application-node-form fieldset#node_application_form_group_pair_wrapper > * > fieldset:first-child {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+  /* line 33, ../sass/partials/modules/nodes/_application-add.sass */
+  #application-node-form fieldset#node_application_form_group_partners > * > fieldset:last-child,
+  #application-node-form fieldset#node_application_form_group_pair_wrapper > * > fieldset:last-child {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+/* line 41, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form label {
+  float: left;
+  width: 5em;
+  margin-right: 1em;
+}
+/* line 51, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form input[type="text"], #application-node-form select {
+  width: 10em;
+  max-width: 100%;
+  margin-top: 0.5em;
+}
+/* line 67, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset {
+  border-width: 0;
+  padding: 0px;
+}
+/* line 75, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset legend {
+  display: none;
+}
+/* line 81, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset .date-no-float.container-inline-date {
+  width: auto;
+}
+/* line 87, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset .date-no-float.container-inline-date .form-type-date-popup {
+  display: block;
+}
+/* line 93, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset .date-no-float.container-inline-date .form-type-date-popup .date-padding {
+  padding: 0;
+  float: none;
+}
+/* line 101, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset .date-no-float.container-inline-date .form-type-date-popup .date-padding .form-type-textfield {
+  float: none;
+}
+/* line 107, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset .date-no-float.container-inline-date .form-type-date-popup .date-padding .form-type-textfield > * {
+  display: inline-block;
+}
+/* line 113, ../sass/partials/modules/nodes/_application-add.sass */
+#application-node-form .field-type-datetime fieldset .date-no-float.container-inline-date .form-type-date-popup .date-padding .form-type-textfield label:after {
+  content: " рождения";
 }
 
 /* line 7, ../sass/partials/modules/views/_tournaments_front.sass */
