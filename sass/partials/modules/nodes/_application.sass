@@ -1,0 +1,11 @@
+.node-application
+  div.field-group-format
+    +at-breakpoint($layout-xlarge-and-above)
+      fieldset
+        margin-bottom: 0
+
+        &:first-child
+          +span-columns($cols-large/2, $cols-large)
+        &:last-child
+          +span-columns($cols-large/2 omega, $cols-large)
+          margin-top: 0

@@ -901,6 +901,26 @@ fieldset.captcha .recaptcha_get_another_captcha a {
   content: " рождения";
 }
 
+@media (min-width: 801px) {
+  /* line 7, ../sass/partials/modules/nodes/_application.sass */
+  .node-application div.field-group-format fieldset {
+    margin-bottom: 0;
+  }
+  /* line 13, ../sass/partials/modules/nodes/_application.sass */
+  .node-application div.field-group-format fieldset:first-child {
+    width: 47.82609%;
+    float: left;
+    margin-right: 4.34783%;
+  }
+  /* line 17, ../sass/partials/modules/nodes/_application.sass */
+  .node-application div.field-group-format fieldset:last-child {
+    width: 47.82609%;
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
+
 /* line 7, ../sass/partials/modules/views/_tournaments_front.sass */
 .view-tournaments-title {
   *zoom: 1;
